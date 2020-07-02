@@ -14,6 +14,7 @@
 		9E0A3B7124AD992100BE8AEC /* SeeFood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E0A3B6F24AD992100BE8AEC /* SeeFood.xcdatamodeld */; };
 		9E0A3B7324AD992200BE8AEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E0A3B7224AD992200BE8AEC /* Assets.xcassets */; };
 		9E0A3B7624AD992200BE8AEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0A3B7424AD992200BE8AEC /* LaunchScreen.storyboard */; };
+		9E0A3B7E24AD99D900BE8AEC /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9E0A3B7D24AD99D900BE8AEC /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9E0A3B7224AD992200BE8AEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E0A3B7524AD992200BE8AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E0A3B7724AD992200BE8AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E0A3B7D24AD99D900BE8AEC /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				9E0A3B7424AD992200BE8AEC /* LaunchScreen.storyboard */,
 				9E0A3B7724AD992200BE8AEC /* Info.plist */,
 				9E0A3B6F24AD992100BE8AEC /* SeeFood.xcdatamodeld */,
+				9E0A3B7D24AD99D900BE8AEC /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E0A3B7E24AD99D900BE8AEC /* Inceptionv3.mlmodel in Sources */,
 				9E0A3B6B24AD992100BE8AEC /* ViewController.swift in Sources */,
 				9E0A3B7124AD992100BE8AEC /* SeeFood.xcdatamodeld in Sources */,
 				9E0A3B6724AD992100BE8AEC /* AppDelegate.swift in Sources */,
@@ -291,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7ZBHT89JPN;
 				INFOPLIST_FILE = SeeFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7ZBHT89JPN;
 				INFOPLIST_FILE = SeeFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
